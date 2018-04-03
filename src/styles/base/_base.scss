@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  background: $light-blue;
   font-family: Helvetica, Arial, sans-serif;
   font-size: $m-size;
 }
@@ -17,6 +16,5 @@ button:disabled {
 }
 
 .is-active {
-  color: red;
   font-weight: bold;
 }

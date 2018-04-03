@@ -1,113 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should render ExpenseList with empty message 1`] = `
+<div>
+  <p>
+    No expenses
+  </p>
+</div>
+`;
+
 exports[`should render ExpenseList with expenses 1`] = `
 <div>
   <ExpenseListItem
     amount={195}
-    createdAt={"1970-01-01T00:00:01.234Z"}
+    createdAt={0}
     description="Gum"
-    expenses={
-      Array [
-        Object {
-          "amount": 195,
-          "createdAt": "1970-01-01T00:00:01.234Z",
-          "description": "Gum",
-          "id": "1",
-          "note": "sticky",
-        },
-        Object {
-          "amount": 295,
-          "createdAt": "1970-01-01T00:00:00.123Z",
-          "description": "Gummy Bears",
-          "id": "2",
-          "note": "sticky",
-        },
-        Object {
-          "amount": 4500,
-          "createdAt": "1970-01-01T00:00:00.012Z",
-          "description": "Credit Card",
-          "id": "3",
-          "note": "sticky",
-        },
-      ]
-    }
     id="1"
-    key="1"
-    note="sticky"
+    note=""
   />
   <ExpenseListItem
-    amount={295}
-    createdAt={"1970-01-01T00:00:00.123Z"}
-    description="Gummy Bears"
-    expenses={
-      Array [
-        Object {
-          "amount": 195,
-          "createdAt": "1970-01-01T00:00:01.234Z",
-          "description": "Gum",
-          "id": "1",
-          "note": "sticky",
-        },
-        Object {
-          "amount": 295,
-          "createdAt": "1970-01-01T00:00:00.123Z",
-          "description": "Gummy Bears",
-          "id": "2",
-          "note": "sticky",
-        },
-        Object {
-          "amount": 4500,
-          "createdAt": "1970-01-01T00:00:00.012Z",
-          "description": "Credit Card",
-          "id": "3",
-          "note": "sticky",
-        },
-      ]
-    }
+    amount={109500}
+    createdAt={-345600000}
+    description="Rent"
     id="2"
-    key="2"
-    note="sticky"
+    note=""
   />
   <ExpenseListItem
     amount={4500}
-    createdAt={"1970-01-01T00:00:00.012Z"}
+    createdAt={345600000}
     description="Credit Card"
-    expenses={
-      Array [
-        Object {
-          "amount": 195,
-          "createdAt": "1970-01-01T00:00:01.234Z",
-          "description": "Gum",
-          "id": "1",
-          "note": "sticky",
-        },
-        Object {
-          "amount": 295,
-          "createdAt": "1970-01-01T00:00:00.123Z",
-          "description": "Gummy Bears",
-          "id": "2",
-          "note": "sticky",
-        },
-        Object {
-          "amount": 4500,
-          "createdAt": "1970-01-01T00:00:00.012Z",
-          "description": "Credit Card",
-          "id": "3",
-          "note": "sticky",
-        },
-      ]
-    }
     id="3"
-    key="3"
-    note="sticky"
+    note=""
   />
-</div>
-`;
-
-exports[`should render ExpenseList with no expenses 1`] = `
-<div>
-  <p>
-    Please add some Expenses
-  </p>
 </div>
 `;
