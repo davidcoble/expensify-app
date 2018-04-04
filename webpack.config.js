@@ -40,7 +40,7 @@ module.exports = (env, argv) => {
         devtool: isProduction ? 'source-map' : 'inline-source-map',
         devServer: {
             contentBase: path.join(__dirname, 'public'),
-            historyApiFallback: true
+            historyApiFallback: true //Forces server to deliver index.html for 404 errors.
         }
     }
 }
