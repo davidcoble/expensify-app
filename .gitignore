@@ -2,3 +2,5 @@ node_modules/
 .idea/
 public/dist/
 
+.env.test
+.env.development
