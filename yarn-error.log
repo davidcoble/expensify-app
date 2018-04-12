@@ -1,5 +1,5 @@
 Arguments: 
-  /home/coble/node/bin/node /home/coble/node/bin/yarn test --watch
+  /home/coble/node/bin/node /home/coble/node/bin/yarn run dev-server
 
 PATH: 
   /usr/java/jdk1.6.0_06/jre/bin:/usr/java/jdk1.6.0_06/bin:/bin:/home/coble/eclipse:/home/coble/gwt:/home/coble/local/bin:/home/coble/bin:/sbin:/usr/sbin:/usr/java/jdk1.6.0_06/jre/bin:/usr/java/jdk1.6.0_06/bin:/bin:/home/coble/eclipse:/home/coble/gwt:/home/coble/local/bin:/home/coble/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/coble/work/gwt2/google_appengine:/home/coble/work/qt/QtSDK/Desktop/Qt/473/gcc/bin:/cmscripts/bin:/build/cm/bin/vnc:/home/coble/bin:/vol/3/user/coble/bin:/home/coble/node/bin:/home/coble/.local/bin:/home/coble/bin:/home/coble/work/gwt2/google_appengine:/home/coble/work/qt/QtSDK/Desktop/Qt/473/gcc/bin:/cmscripts/bin:/build/cm/bin/vnc:/home/coble/bin:/vol/3/user/coble/bin:/home/coble/node/bin
@@ -5759,8 +5759,8 @@ Trace:
   Error: Command failed.
   Exit code: 127
   Command: sh
-  Arguments: -c cross-env NODE_ENV=test jest --config=jest.config.json --watch
-  Directory: /home/coble/react/udemy/r-17-05-test-db
+  Arguments: -c webpack-dev-server
+  Directory: /home/coble/react/udemy/expensify
   Output:
   
       at ProcessTermError.MessageError (/home/coble/node/lib/node_modules/yarn/lib/cli.js:186:110)
